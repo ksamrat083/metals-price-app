@@ -55,7 +55,7 @@ npm install
 3️⃣ Configure API
 Edit src/constants/config.ts:
 
-export const GOLDAPI_KEY = "<your-goldapi-key>"; // from goldapi.io
+export const GOLDAPI_KEY = "goldapi-a4tosmeu8m1bh-io"; // from goldapi.io
 export const USE_MOCK = false; // set true to use mock prices
 
 4️⃣ Run the app
@@ -79,9 +79,22 @@ Custom mock API for testing
 
 📸 Screenshots
 
-Landing Page – live prices for all metals
+Landing Page 
+(./assets/Metals-Prices-Dashboard.png)
 
-Details Page – expanded view with historical info
+Metal Details 
+– Gold 
+(./assets/Metal-Details-Gold.png)
+
+- Silver 
+(./assets/Metal-Details-Silver.png)
+
+- Platinum 
+(./assets/Metal-Details-Platinum.png)
+
+- Palladium 
+(./assets/Metal-Details-Palladium.png)
 
 👨‍💻 Author
-Developed by Samrat Kavide [ksamrat083]
+SAMRAT KAVIDE
+GitHub: @ksamrat083
