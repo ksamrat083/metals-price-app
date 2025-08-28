@@ -54,47 +54,41 @@ npm install
 
 3️⃣ Configure API
 Edit src/constants/config.ts:
-
+```
 export const GOLDAPI_KEY = "goldapi-a4tosmeu8m1bh-io"; // from goldapi.io
 export const USE_MOCK = false; // set true to use mock prices
+```
 
 4️⃣ Run the app
 ```
 npx expo start
 ```
 
-🛠 Tech Stack
+## 🛠 Tech Stack
+- React Native (Expo)
+- TypeScript
+- React Navigation
+- [goldapi.io](https://www.goldapi.io/) (Live market data)
+- Custom mock API for testing
 
-React Native
- (Expo)
+## 📸 Screenshots
 
-TypeScript
+### Landing Page
+![Landing Page](./assets/Metals-Prices-Dashboard.png)
 
-React Navigation
+### Metal Details
+- **Gold**  
+  ![Gold Details](./assets/Metal-Details-Gold.png)
 
-goldapi.io
- (Live market data)
+- **Silver**  
+  ![Silver Details](./assets/Metal-Details-Silver.png)
 
-Custom mock API for testing
+- **Platinum**  
+  ![Platinum Details](./assets/Metal-Details-Platinum.png)
 
-📸 Screenshots
+- **Palladium**  
+  ![Palladium Details](./assets/Metal-Details-Palladium.png)
 
-Landing Page 
-(./assets/Metals-Prices-Dashboard.png)
-
-Metal Details 
-– Gold 
-(./assets/Metal-Details-Gold.png)
-
-- Silver 
-(./assets/Metal-Details-Silver.png)
-
-- Platinum 
-(./assets/Metal-Details-Platinum.png)
-
-- Palladium 
-(./assets/Metal-Details-Palladium.png)
-
-👨‍💻 Author
-SAMRAT KAVIDE
-GitHub: @ksamrat083
+## 👨‍💻 Author
+**Samrat Kavide**  
+GitHub: [@ksamrat083](https://github.com/ksamrat083)
